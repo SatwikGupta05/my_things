@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MovieStream Demo V2</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>🎬 MovieStream</h1>
+    <p>Watch trailers of your favorite movies</p>
+  </header>
+
+  <main class="movie-grid">
+    <div class="movie-card" onclick="openMovie('inception.html')">
+      <img src="https://m.media-amazon.com/images/I/51oBxmV-dML.jpg" alt="Inception">
+      <h3>Inception</h3>
+    </div>
+    <div class="movie-card" onclick="openMovie('joker.html')">
+      <img src="https://m.media-amazon.com/images/I/71niXI3lxlL._AC_UF894,1000_QL80_.jpg" alt="Joker">
+      <h3>Joker</h3>
+    </div>
+    <div class="movie-card" onclick="openMovie('avatar.html')">
+      <img src="https://m.media-amazon.com/images/I/61OUGpUfAyL._AC_UF894,1000_QL80_.jpg" alt="Avatar">
+      <h3>Avatar</h3>
+    </div>
+      <div class="movie">
+    <img src="images/avengers.jpg" alt="Avengers: Endgame">
+    <h3>Avengers: Endgame</h3>
+  </div>
+
+  <div class="movie">
+    <img src="images/joker.jpg" alt="Joker">
+    <h3>Joker</h3>
+  </div>
+
+  <div class="movie">
+    <img src="images/spiderman.jpg" alt="Spiderman: No Way Home">
+    <h3>Spiderman: No Way Home</h3>
+  </div>
+
+  <div class="movie">
+    <img src="images/oppenheimer.jpg" alt="Oppenheimer">
+    <h3>Oppenheimer</h3>
+  </div>
+
+  <div class="movie">
+    <img src="images/avatar2.jpg" alt="Avatar: The Way of Water">
+    <h3>Avatar: The Way of Water</h3>
+  </div>
+
+    <div class="movie">
+    <img src="images/deadpool.jpg" alt="Deadpool & Wolverine">
+    <h3>Deadpool & Wolverine</h3>
+  </div>
+
+  </main>
+
+  <footer>
+    <p>© 2025 MovieStream Demo | Built by Satwik Gupta</p>
+  </footer>
+
+  <script>
+    function openMovie(page) {
+      window.location.href = page;
+    }
+  </script>
+</body>
+</html>
